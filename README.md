@@ -1,6 +1,6 @@
 # ContactManagementApi
 
-ASP.NET Core Web API project for contact management.
+ASP.NET Core Web API project for managing contacts, companies and countries.
 
 ## Features
 
@@ -10,6 +10,7 @@ ASP.NET Core Web API project for contact management.
 - DTOs and validation
 - Unit testing with xUnit
 - Entity Framework Core
+- SQL Server database
 
 ## Technologies
 
@@ -23,10 +24,17 @@ ASP.NET Core Web API project for contact management.
 - ContactManagementApi
 - ContactManagementApi.Tests
 
+## Getting Started
+
+1. Clone repository
+2. Open solution in Visual Studio
+3. Update database connection string
+4. Run migrations
+5. Start the API
+
 ## Tests
 
-The project contains unit tests for services using xUnit and InMemoryDatabase.
+Run unit tests from:
 
-## Author
-
-Simona
+```bash
+dotnet test
