@@ -71,12 +71,6 @@ namespace ContactManagementApi.Controllers
             return NoContent();
         }
 
-        [HttpGet("{countryId}/company-statistics")]
-        public async Task<IActionResult> GetCompanyStatisticsByCountryId(int countryId)
-        {
-            var statistics = await _countryService.GetCompanyStatisticsByCountryIdAsync(countryId);
-
-            return Ok(statistics);
-        }
+    
     }
 }

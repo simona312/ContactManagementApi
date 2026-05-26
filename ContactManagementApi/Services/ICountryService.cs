@@ -10,6 +10,6 @@ namespace ContactManagementApi.Services
         Task<Country> CreateAsync(CountryDto dto);
         Task<bool> UpdateAsync(int id, CountryDto dto);
         Task<bool> DeleteAsync(int id);
-        Task<object> GetCompanyStatisticsByCountryIdAsync(int countryId);
+
     }
 }
